@@ -1,584 +1,105 @@
-<!DOCTYPE html>
+VOLVER A VOS
+21 días para reconectar con tu esencia, tu cuerpo y tu disfrute.
 
-<html lang="es">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>RESET EMOCIONAL — Volver a Vos</title>
-<style>
-    :root {
-      --bg: #f3e7de;
-      --paper: #fbf7f1;
-      --text: #3a302b;
-      --muted: #7b6a60;
-      --accent: #c48663;
-      --accent-dark: #9a5f43;
-      --terracotta: #b96f4d;
-      --terracotta-soft: #d9a286;
-      --soft: #ead9cc;
-      --white: #fffaf5;
-    }
+Una experiencia emocional y sensorial de 21 días con workbook interactivo, audios, playlist y juego emocional imprimible para volver a sentirte presente, liviana y conectada con vos.
+EMPEZAR MI RESET ✨
+Acceso digital inmediato
+Workbook interactivo digital de 78 páginas
+Juego emocional para imprimir en casa
 
-    * { box-sizing: border-box; }
+MIRÁ RESET POR DENTRO
+Una experiencia simple, íntima y fácil de vivir desde donde quieras.
+En este recorrido vas a ver cómo usar el workbook interactivo, escuchar los audios, abrir las playlists y acompañarte día a día durante los 21 días.
+Tu navegador no puede reproducir este video.
+No necesitás saber por dónde empezar. La experiencia te va guiando paso a paso para bajar el ruido, escucharte y volver a conectar con vos.
+PARA QUÉ ES
+No necesitás exigirte más. Necesitás escucharte mejor.
+RESET EMOCIONAL es un recorrido emocional diseñado para mujeres que sienten cansancio mental, desconexión emocional o necesidad de volver a sentirse presentes, livianas y conectadas consigo mismas.
+✦
+Para bajar el ruido mental y emocional.
+✦
+Para reconectar con tu cuerpo, tu energía y tu deseo.
+✦
+Para volver a elegirte sin hacerlo desde la exigencia.
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    .page {
-      overflow: hidden;
-    }
-
-    section {
-      padding: 72px 22px;
-    }
-
-    .container {
-      width: min(1080px, 100%);
-      margin: 0 auto;
-    }
-
-    .hero {
-      min-height: auto;
-      background: var(--paper);
-      padding: 0;
-    }
-
-    .hero-layout {
-      width: 100%;
-      display: grid;
-      grid-template-columns: .62fr 1.38fr;
-      min-height: 760px;
-    }
-
-    .hero-visuals {
-      min-height: 760px;
-    }
-
-    .hero-cover {
-      display: none;
-    }
-
-    .hero-copy {
-      padding: 88px 64px 76px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background:
-        radial-gradient(circle at top left, rgba(196,134,99,.16), transparent 34%),
-        linear-gradient(180deg, rgba(251,247,241,.98), rgba(247,240,233,.96));
-      position: relative;
-    }
-
-    .hero-image {
-      background:
-        linear-gradient(rgba(40,28,20,.03), rgba(40,28,20,.03)),
-        url('https://res.cloudinary.com/dock95yy1/image/upload/v1779819296/ChatGPT_Image_22_may_2026_13_25_58_r1dlvw.png');
-      background-size: cover;
-      background-position: center;
-      min-height: 760px;
-      width: 100%;
-      height: 100%;
-    }
-
-    .eyebrow {
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: #d8b9a2;
-      font-size: 12px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
-
-    h1, h2, h3 {
-      font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 34px;
-      font-weight: 400;
-      line-height: 1.08;
-      letter-spacing: -0.02em;
-      margin-bottom: 14px;
-      color: #2f2723;
-    }
-
-    .hero p {
-      font-size: 23px;
-      color: var(--muted);
-      max-width: 430px;
-      margin: 0 0 22px;
-      line-height: 1.5;
-    }
-
-    .button {
-      display: inline-block;
-      background: linear-gradient(135deg, var(--terracotta), var(--accent-dark));
-      color: white;
-      text-decoration: none;
-      padding: 17px 30px;
-      border-radius: 999px;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      box-shadow: 0 14px 30px rgba(70, 45, 30, 0.18);
-      transition: transform .2s ease, opacity .2s ease;
-    }
-
-    .button:hover {
-      transform: translateY(-2px);
-      opacity: .92;
-    }
-
-    .subnote {
-      margin-top: 18px;
-      font-size: 14px;
-      color: var(--muted);
-    }
-
-    .split {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 54px;
-      align-items: center;
-    }
-
-    .card {
-      background: rgba(255,250,245,0.72);
-      border: 1px solid rgba(185,139,107,0.22);
-      border-radius: 28px;
-      padding: 34px;
-      box-shadow: 0 22px 60px rgba(80, 55, 40, 0.08);
-      backdrop-filter: blur(10px);
-    }
-
-    .image-card {
-      min-height: 520px;
-      background:
-        linear-gradient(rgba(90,60,40,0.03), rgba(90,60,40,0.05)),
-        url('https://res.cloudinary.com/dock95yy1/image/upload/v1779819708/1200x628_px_o8pxu9.png');
-      background-size: cover;
-      background-position: center;
-      border-radius: 34px;
-      box-shadow: 0 28px 80px rgba(70, 45, 30, 0.16);
-    }
-
-    .photo-grid {
-      display: grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap: 22px;
-      margin-top: 38px;
-    }
-
-    .photo-tile {
-      min-height: 360px;
-      border-radius: 28px;
-      background-size: cover;
-      background-position: center;
-      box-shadow: 0 18px 50px rgba(70, 45, 30, 0.12);
-    }
-
-    .photo-tile.tall { min-height: 520px; }
-    .photo-stack { display: grid; gap: 22px; }
-    .photo-small { min-height: 249px; }
-
-    .lead {
-      font-size: 20px;
-      color: var(--muted);
-      margin-bottom: 26px;
-    }
-
-    .list {
-      display: grid;
-      gap: 16px;
-      margin-top: 28px;
-    }
-
-    .item {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      color: var(--text);
-    }
-
-    .item span {
-      color: var(--accent-dark);
-      font-weight: 700;
-    }
-
-    .soft-section {
-      background:
-        linear-gradient(180deg, rgba(255,255,255,.18), rgba(255,255,255,.08)),
-        #f7efe8;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 22px;
-      margin-top: 38px;
-    }
-
-    .feature {
-      background: linear-gradient(180deg, rgba(255,250,245,.98), rgba(249,241,234,.96));
-      border-radius: 26px;
-      padding: 28px;
-      border: 1px solid rgba(185,139,107,0.22);
-      box-shadow: 0 10px 30px rgba(185,111,77,.08);
-    }
-
-    .feature p {
-      color: var(--muted);
-      margin: 0;
-    }
-
-    .mini-icon {
-      width: 58px;
-      height: 58px;
-      border-radius: 18px;
-      background: linear-gradient(180deg, rgba(196,134,99,.18), rgba(185,111,77,.10));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 18px;
-      border: 1px solid rgba(185,139,107,.16);
-    }
-
-    .mini-icon svg {
-      width: 26px;
-      height: 26px;
-      stroke: var(--accent-dark);
-      stroke-width: 1.7;
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .ritual-box {
-      background: linear-gradient(180deg, rgba(255,250,245,.95), rgba(255,250,245,.82));
-      border-radius: 34px;
-      padding: 42px;
-      border: 1px solid rgba(185,139,107,.18);
-      box-shadow: 0 22px 60px rgba(80,55,40,.08);
-    }
-
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      gap: 18px;
-      margin-top: 36px;
-    }
-
-    .step {
-      background: rgba(255,255,255,.55);
-      border-radius: 24px;
-      padding: 24px;
-      text-align: center;
-      border: 1px solid rgba(185,139,107,.16);
-    }
-
-    .step-icon {
-      width: 58px;
-      height: 58px;
-      border-radius: 18px;
-      background: linear-gradient(180deg, rgba(196,134,99,.18), rgba(185,111,77,.10));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 18px;
-      border: 1px solid rgba(185,139,107,.16);
-    }
-
-    .step-icon svg {
-      width: 26px;
-      height: 26px;
-      stroke: var(--accent-dark);
-      stroke-width: 1.7;
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .bracket-quote {
-      max-width: 920px;
-      margin: 0 auto;
-      position: relative;
-      padding: 28px 60px;
-    }
-
-    .bracket-quote:before,
-    .bracket-quote:after {
-      content: '';
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      border-color: rgba(185,139,107,.55);
-    }
-
-    .bracket-quote:before {
-      left: 0;
-      top: 0;
-      border-left: 2px solid;
-      border-top: 2px solid;
-    }
-
-    .bracket-quote:after {
-      right: 0;
-      bottom: 0;
-      border-right: 2px solid;
-      border-bottom: 2px solid;
-    }
-
-    .quote {
-      text-align: center;
-      max-width: 820px;
-      margin: 0 auto;
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(30px, 5vw, 54px);
-      line-height: 1.18;
-      color: var(--accent-dark);
-      font-style: italic;
-    }
-
-    .price-box {
-      text-align: center;
-      max-width: 740px;
-      margin: 0 auto;
-      background:
-        radial-gradient(circle at top, rgba(196,134,99,.16), transparent 42%),
-        var(--white);
-      border-radius: 34px;
-      padding: 44px 28px;
-      border: 1px solid rgba(185,139,107,0.25);
-      box-shadow: 0 24px 70px rgba(80, 55, 40, 0.1);
-    }
-
-    .price {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(52px, 8vw, 86px);
-      color: var(--accent-dark);
-      line-height: 1;
-      margin: 22px 0;
-    }
-
-    .old-price {
-      color: var(--muted);
-      text-decoration: line-through;
-      font-size: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 34px 22px 48px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    @media (max-width: 820px) {
-      .hero-layout {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-visuals {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-cover {
-        min-height: 48vh;
-      }
-
-      .hero-layout {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-copy {
-        padding: 72px 28px 54px;
-        text-align: center;
-        align-items: center;
-      }
-
-      .hero-image {
-        min-height: 58vh;
-      }
-
-      h1 {
-        max-width: 100%;
-      }
-
-      .steps { grid-template-columns: 1fr; }
-      .ritual-box { padding: 28px; }
-      section { padding: 56px 18px; }
-      .split, .grid, .photo-grid { grid-template-columns: 1fr; }
-      .hero { text-align: center; background-position: center; }
-      h1, .hero p { margin-left: auto; margin-right: auto; }
-      .image-card { min-height: 420px; }
-      .card { padding: 26px; }
-      .photo-tile.tall, .photo-small { min-height: 340px; }
-    }
-  </style>
-</head>
-<body>
-<main class="page">
-<section class="hero">
-<div class="hero-layout">
-<div class="hero-copy">
-<div class="eyebrow" style="margin-bottom:28px; color:var(--terracotta); font-weight:400;">VOLVER A VOS</div>
-<h1 style="font-size:58px; line-height:1.02; max-width:420px; text-transform:none; letter-spacing:-0.03em; margin-bottom:26px;">21 días para reconectar con tu esencia, tu cuerpo y tu disfrute.</h1>
-<div style="width:72px;height:2px;background:rgba(185,139,107,.35);margin:4px auto 28px;"></div>
-<p style="font-size:18px; max-width:430px; opacity:.92;">Una experiencia emocional y sensorial de 21 días con workbook interactivo, audios, playlist y juego emocional imprimible para volver a sentirte presente, liviana y conectada con vos.</p>
-<a class="button" href="https://wa.me/5491130442045?text=Hola%2C%20quiero%20empezar%20RESET%20EMOCIONAL" style="margin-top:10px;" target="_blank">EMPEZAR MI RESET ✨</a>
-<div class="subnote">Acceso digital inmediato<br/>
-Workbook interactivo digital de 78 páginas<br/>
-Juego emocional para imprimir en casa</div>
-</div>
-<div class="hero-visuals">
-<div class="hero-image"></div>
-</div>
-</div>
-</section>
-<section>
-<div class="container split">
-<div>
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark); font-weight:400;">PARA QUÉ ES</div>
-<h2>No necesitás exigirte más. Necesitás escucharte mejor.</h2>
-<p class="lead">RESET EMOCIONAL es un recorrido emocional diseñado para mujeres que sienten cansancio mental, desconexión emocional o necesidad de volver a sentirse presentes, livianas y conectadas consigo mismas.</p>
-<div class="list">
-<div class="item"><span>✦</span><div>Para bajar el ruido mental y emocional.</div></div>
-<div class="item"><span>✦</span><div>Para reconectar con tu cuerpo, tu energía y tu deseo.</div></div>
-<div class="item"><span>✦</span><div>Para volver a elegirte sin hacerlo desde la exigencia.</div></div>
-</div>
-</div>
-<div aria-label="Imagen sensorial del producto" class="image-card" style="background-image:linear-gradient(rgba(90,60,40,0.03), rgba(90,60,40,0.05)), url('https://res.cloudinary.com/dock95yy1/image/upload/v1779117099/ChatGPT_Image_18_may_2026_12_10_36_bipbg9.png'); background-position:center;"></div>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark); font-weight:400;">EXPERIENCIA RESET</div>
-<h2 style="text-align:center; max-width:820px; margin:0 auto 18px;">Una experiencia emocional diseñada para sentirse cálida, íntima y profundamente humana.</h2>
-<p class="lead" style="text-align:center; max-width:760px; margin:0 auto 18px;"><strong>No se trata de hacer más.</strong><br/><strong>Se trata de regalarte unos minutos al día para volver a vos.</strong></p>
-<p class="lead" style="text-align:center; max-width:760px; margin:0 auto 42px;">A través de pequeños rituales, reflexiones, música y momentos de pausa, esta experiencia te invita a reconectar con tu energía, tu sensibilidad y la persona que sos cuando dejás de correr por un instante.</p>
-<div class="photo-grid">
-<div class="photo-tile tall" style="background-image:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779115220/ChatGPT_Image_18_may_2026_00_36_57_ogvs6a.png'); background-position:center;"></div>
-<div class="photo-stack">
-<div class="photo-tile photo-small" style="background-image:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779115056/ChatGPT_Image_16_may_2026_22_16_15_j8f4cy.png'); background-position:center;"></div>
-<div class="photo-tile photo-small" style="background-image:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779115218/ChatGPT_Image_18_may_2026_00_39_39_bloqpk.png'); background-position:center;"></div>
-</div>
-</div>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="ritual-box">
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark); font-weight:400;">CÓMO VIVIR LA EXPERIENCIA</div>
-<h2>Más que leerlo, la idea es habitarlo.</h2>
-<p class="lead">Cada día fue pensado para sentirse simple, cálido y profundamente humano.</p>
-<p class="lead">Empezá escuchando el audio del día. Después, si lo deseás, poné la playlist que acompaña esa misma jornada y permitite vivir la experiencia a tu ritmo, respondiendo las reflexiones y ejercicios directamente dentro del workbook.</p>
-<p class="lead">No necesitás un cuaderno aparte ni preparar nada especial. Solo regalarte unos minutos para vos.</p>
-<p class="lead">Podés vivir toda la experiencia desde tu computadora, tablet o celular, eligiendo el formato que mejor se adapte a tu momento y a tu ritmo.</p>
-<div class="steps">
-<div class="step">
-<div class="step-icon"><svg viewbox="0 0 24 24"><path d="M6 3h12"></path><path d="M8 3v4"></path><path d="M16 3v4"></path><path d="M5 11h14"></path><path d="M7 21h10"></path><path d="M12 11v10"></path></svg></div>
-<h3>Prepará tu momento</h3>
-<p>Un té, un café o una vela pueden ayudarte a entrar en clima.</p>
-</div>
-<div class="step">
-<div class="step-icon"><svg viewbox="0 0 24 24"><path d="M4 13v-1a8 8 0 0 1 16 0v1"></path><rect height="7" rx="2" width="4" x="3" y="13"></rect><rect height="7" rx="2" width="4" x="17" y="13"></rect></svg></div>
-<h3>Ponete los auriculares</h3>
-<p>Empezá por el audio del día. La playlist incluida en esa misma jornada fue pensada para acompañar el momento y ayudarte a conectar con la experiencia.</p>
-</div>
-<div class="step">
-<div class="step-icon"><svg viewbox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3z"></path><path d="M5 4v16a3 3 0 0 1 3-3h11"></path></svg></div>
-<h3>Viví un día a la vez</h3>
-<p>No leas todo de golpe. Permitite atravesar la experiencia despacio.</p>
-</div>
-<div class="step">
-<div class="step-icon"><svg viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 3"></path></svg></div>
-<h3>Imprimí el juego</h3>
-<p>Usá las cartas y el círculo emocional para reconectar con cómo querés sentirte.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="soft-section">
-<div class="container">
-<div style="height:360px; border-radius:34px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779074921/ChatGPT_Image_16_may_2026_22_12_12_es19gj.png') center/cover; margin-bottom:46px; box-shadow:0 22px 60px rgba(70,45,30,.12);"></div>
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark); font-weight:400;">QUÉ INCLUYE</div>
-<h2>Una experiencia completa, simple y profundamente emocional.</h2>
-<div class="grid">
+EXPERIENCIA RESET
+Una experiencia emocional diseñada para sentirse cálida, íntima y profundamente humana.
+No se trata de hacer más. Se trata de regalarte unos minutos al día para volver a vos.
+A través de pequeños rituales, reflexiones, música y momentos de pausa, esta experiencia te invita a reconectar con tu energía, tu sensibilidad y la persona que sos cuando dejás de correr por un instante.
 
 
 
+CÓMO VIVIR LA EXPERIENCIA
+Más que leerlo, la idea es habitarlo.
+Cada día fue pensado para sentirse simple, cálido y profundamente humano.
+Empezá escuchando el audio del día. Después, si lo deseás, poné la playlist que acompaña esa misma jornada y permitite vivir la experiencia a tu ritmo, respondiendo las reflexiones y ejercicios directamente dentro del workbook.
+No necesitás un cuaderno aparte ni preparar nada especial. Solo regalarte unos minutos para vos.
+Podés vivir toda la experiencia desde tu computadora, tablet o celular, eligiendo el formato que mejor se adapte a tu momento y a tu ritmo.
 
+Prepará tu momento
+Un té, un café o una vela pueden ayudarte a entrar en clima.
 
+Ponete los auriculares
+Empezá por el audio del día. La playlist incluida en esa misma jornada fue pensada para acompañar el momento y ayudarte a conectar con la experiencia.
 
-<div class="feature"><div class="mini-icon"><svg viewbox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3z"></path><path d="M5 4v16a3 3 0 0 1 3-3h11"></path></svg></div><h3>Workbook interactivo de 78 páginas</h3><p>Incluye por día: audio emocional, playlist especialmente curada, ritual simple y espacios de journaling guiado para escribir, reflexionar y registrar tu proceso directamente dentro del workbook.</p><p style="margin-top:12px;">Todo fue diseñado para que puedas vivir la experiencia completa en un mismo lugar, sin necesidad de materiales adicionales.</p></div><div class="feature" style="overflow:hidden;"><div style="height:180px; border-radius:18px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1780070612/audio_bawxyg.png') center/cover; margin-bottom:18px;"></div><h3>Audios diarios</h3><p>Reflexiones guiadas y meditaciones breves para ayudarte a bajar el ritmo, conectar con vos y acompañar cada etapa del recorrido emocional.</p></div><div class="feature" style="overflow:hidden;"><div style="height:180px; border-radius:18px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1780070636/escribiendo_hmmoxm.png') center/cover; margin-bottom:18px;"></div><h3>Playlist sensorial</h3><p>Una selección musical especialmente curada para acompañar cada día de la experiencia y ayudarte a crear un momento de presencia, calma y conexión.</p></div><div class="feature"><div class="mini-icon"><svg viewbox="0 0 24 24"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect height="16" rx="2" width="18" x="3" y="5"></rect><path d="M3 10h18"></path></svg></div><h3>Check-ins semanales</h3><p>Espacios para registrar avances, emociones y nuevas decisiones.</p></div><div class="feature" style="overflow:hidden;"><div style="height:180px; border-radius:18px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1780070666/carta_digozt.png') center/cover; margin-bottom:18px;"></div><h3>Carta final para vos</h3><p>Un cierre simbólico y profundamente personal para reconocer tu camino, integrar lo vivido y conectar con la persona que sos hoy.</p></div><div class="feature" style="overflow:hidden;"><div style="height:180px; border-radius:18px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779819519/todood_ksgqzc.png') center/cover; margin-bottom:18px;"></div><h3>Juego emocional imprimible</h3><p>Elegí una temática, girá el círculo emocional y descubrí una pregunta para explorar lo que estás viviendo.</p><p style="margin-top:12px;">Para reflexionar sola o compartir con alguien de confianza.</p></div></div>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="bracket-quote">
-<p class="quote">“No necesitabas convertirte en alguien nuevo. Solo volver un poco más a vos.”</p>
-</div>
-</div>
-</section>
-<section class="soft-section">
-<div class="container split">
-<div class="card" style="background:linear-gradient(180deg, rgba(255,250,245,.98), rgba(244,232,223,.92)); border:1px solid rgba(185,139,107,.28); box-shadow:0 30px 70px rgba(80,55,40,.12);">
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark);">ESTO ES PARA VOS SI</div>
-<h3 style="font-size:30px; line-height:1.08; margin-bottom:22px; max-width:420px; color:var(--accent-dark);">Sentís que necesitás volver<br/>un poco más a vos.</h3>
-<div class="list">
-<div class="item"><span>✓</span><div>Sentís que venís funcionando en automático.</div></div>
-<div class="item"><span>✓</span><div>Querés recuperar energía vital y entusiasmo por vivir.</div></div>
-<div class="item"><span>✓</span><div>Necesitás un espacio simple para escucharte sin juicio.</div></div>
-<div class="item"><span>✓</span><div>Querés volver a sentirte más liviana, presente y conectada.</div></div>
-<div class="item"><span>✓</span><div>Sentís que esta experiencia podría ser un regalo significativo para alguien que querés.</div></div>
-</div>
-</div>
-<div class="card" style="background:linear-gradient(180deg, rgba(255,250,245,.98), rgba(244,232,223,.92)); border:1px solid rgba(185,139,107,.28); box-shadow:0 30px 70px rgba(80,55,40,.12);">
-<div class="eyebrow" style="font-size:13px; letter-spacing:.22em; color:var(--accent-dark); font-weight:400;">CÓMO FUNCIONA</div>
-<h3 style="font-size:30px; line-height:1.08; margin-bottom:22px; max-width:420px; color:var(--accent-dark);">Simple, cálido y pensado<br/>para vivirlo a tu ritmo.</h3>
-<div class="list">
-<div class="item">
-<div class="mini-icon" style="width:52px;height:52px;min-width:52px;margin:0;"><svg viewbox="0 0 24 24"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.7L23 6H6"></path></svg></div>
-<div>Comprás la experiencia digital.</div>
-</div>
-<div class="item">
-<div class="mini-icon" style="width:52px;height:52px;min-width:52px;margin:0;"><svg viewbox="0 0 24 24"><path d="M4 6h16v12H4z"></path><path d="m4 7 8 6 8-6"></path></svg></div>
-<div>Recibís acceso inmediato al material.</div>
-</div>
-<div class="item">
-<div class="mini-icon" style="width:52px;height:52px;min-width:52px;margin:0;"><svg viewbox="0 0 24 24"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 0-3 3z"></path><path d="M5 4v16a3 3 0 0 1 3-3h11"></path></svg></div>
-<div>Vivís un día a la vez, a tu ritmo.</div>
-</div>
-<div class="item">
-<div class="mini-icon" style="width:52px;height:52px;min-width:52px;margin:0;"><svg viewbox="0 0 24 24"><path d="M12 21s-6-4.35-9-8.5C.5 8.5 3 4 7.5 4c2.04 0 3.54 1.02 4.5 2.09C12.96 5.02 14.46 4 16.5 4 21 4 23.5 8.5 21 12.5 18 16.65 12 21 12 21z"></path></svg></div>
-<div>Volvés a vos con más calma, conciencia y presencia.</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section>
-<div class="container">
-<div class="price-box">
-<div style="height:260px; border-radius:26px; background:url('https://res.cloudinary.com/dock95yy1/image/upload/v1779819708/1200x628_px_o8pxu9.png') center/cover; margin-bottom:30px; box-shadow:0 18px 50px rgba(70,45,30,.12);"></div>
-<div class="eyebrow" style="font-weight:400; color:var(--terracotta);">OFERTA DE LANZAMIENTO</div>
-<h2>Tu pausa puede empezar hoy.</h2>
-<div class="old-price">USD 27</div>
-<div class="price">$15.000.-</div>
-<div style="margin-top:-8px; margin-bottom:24px; color:var(--terracotta); font-size:14px; letter-spacing:.18em; text-transform:uppercase;">50% OFF</div>
-<p class="lead">Experiencia interactiva de 78 páginas + audios + playlist + juego emocional imprimible.</p>
-<a class="button" href="https://wa.me/5491130442045?text=Hola%2C%20quiero%20comprar%20RESET%20EMOCIONAL" target="_blank">EMPEZAR MI RESET ✨</a>
-<div class="subnote">Recibís todo el material digital por WhatsApp.</div>
-</div>
-</div>
-</section>
-</main>
-<footer>
-    RESET EMOCIONAL — Volver a Vos · Experiencia digital de bienestar emocional
-  </footer>
-</body>
-</html>
+Viví un día a la vez
+No leas todo de golpe. Permitite atravesar la experiencia despacio.
+
+Imprimí el juego
+Usá las cartas y el círculo emocional para reconectar con cómo querés sentirte.
+
+QUÉ INCLUYE
+Una experiencia completa, simple y profundamente emocional.
+
+Workbook interactivo de 78 páginas
+Incluye por día: audio emocional, playlist especialmente curada, ritual simple y espacios de journaling guiado para escribir, reflexionar y registrar tu proceso directamente dentro del workbook.
+Todo fue diseñado para que puedas vivir la experiencia completa en un mismo lugar, sin necesidad de materiales adicionales.
+
+Audios diarios
+Reflexiones guiadas y meditaciones breves para ayudarte a bajar el ritmo, conectar con vos y acompañar cada etapa del recorrido emocional.
+
+Playlist sensorial
+Una selección musical especialmente curada para acompañar cada día de la experiencia y ayudarte a crear un momento de presencia, calma y conexión.
+
+Check-ins semanales
+Espacios para registrar avances, emociones y nuevas decisiones.
+
+Carta final para vos
+Un cierre simbólico y profundamente personal para reconocer tu camino, integrar lo vivido y conectar con la persona que sos hoy.
+
+Juego emocional imprimible
+Elegí una temática, girá el círculo emocional y descubrí una pregunta para explorar lo que estás viviendo.
+Para reflexionar sola o compartir con alguien de confianza.
+“No necesitabas convertirte en alguien nuevo. Solo volver un poco más a vos.”
+ESTO ES PARA VOS SI
+Sentís que necesitás volver un poco más a vos.
+✓
+Sentís que venís funcionando en automático.
+✓
+Querés recuperar energía vital y entusiasmo por vivir.
+✓
+Necesitás un espacio simple para escucharte sin juicio.
+✓
+Querés volver a sentirte más liviana, presente y conectada.
+✓
+Sentís que esta experiencia podría ser un regalo significativo para alguien que querés.
+CÓMO FUNCIONA
+Simple, cálido y pensado para vivirlo a tu ritmo.
+
+Comprás la experiencia digital.
+
+Recibís acceso inmediato al material.
+
+Vivís un día a la vez, a tu ritmo.
+
+Volvés a vos con más calma, conciencia y presencia.
+
+OFERTA DE LANZAMIENTO
+Tu pausa puede empezar hoy.
+USD 27
+$15.000.-
+50% OFF
+Experiencia interactiva de 78 páginas + audios + playlist + juego emocional imprimible.
+EMPEZAR MI RESET ✨
+Recibís todo el material digital por WhatsApp.
+RESET EMOCIONAL — Volver a Vos · Experiencia digital de bienestar emocional
